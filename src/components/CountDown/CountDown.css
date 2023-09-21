@@ -1,0 +1,34 @@
+
+#CountDown h2 {
+    font-size: 25px;
+}
+
+#CountDown .digit{
+    display: inline-block;
+    text-align: center;
+}
+
+#CountDown .digit input[type="number"], input[type="text"]{
+    font-family: 'Patua One', cursive;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 70px;
+    border: 2px solid darkblue;
+}
+
+#CountDown .digit label {
+    font-size: 15px;
+}
+
+#clearTimerButton {
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 2px solid darkblue;
+    color: #fff;
+    background-color: darkblue;
+    margin-top: 15px;
+    margin-left: 67px;
+    font-size: 14px;
+}
